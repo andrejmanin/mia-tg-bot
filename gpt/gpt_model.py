@@ -1,7 +1,7 @@
 from openai import AsyncOpenAI
 import json
 
-API_KEY = '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'
+API_KEY = 'Your api key'
 
 client = AsyncOpenAI(api_key=API_KEY)
 
