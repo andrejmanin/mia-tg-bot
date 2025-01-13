@@ -39,7 +39,7 @@ async def answer(message: Message):
 
 async def main():
     await async_main()
-    bot = Bot(token='7364707080:AAEIr14fJhcNwNQB5aakiCwbFR-FtRIfhrw')
+    bot = Bot(token='bot-token')
     await dp.start_polling(bot)
 
 if __name__ == '__main__':
